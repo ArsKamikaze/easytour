@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.p {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.h1 {
+  color: #000000;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.h2 {
+  color: #000000;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.h4 {
+  color: #000000;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.view {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  text-decoration: underline;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  color: #fff;
+}
+body {
+  background: cover;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  width: 92%;
+  flex-shrink: 1;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.header p {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 24px;
+  flex-shrink: 1;
+}
+.header .navigation {
+  flex-shrink: 1;
+}
+.header .navigation .navigation__menu {
+  display: flex;
+  width: 495px;
+  justify-content: space-between;
+  flex-shrink: 1;
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.header .navigation .navigation__menu li {
+  flex-shrink: 1;
+  margin: 0 10px;
+}
+.main {
+  background: url(img/girl-mountain\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  min-height: 733px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .main__p {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 22px;
+  max-width: 592px;
+  text-align: center;
+}
+.content {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.content .country {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.content .country p {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  max-width: 520px;
+  text-align: center;
+}
+.content .country .vertical-block {
+  display: flex;
+  gap: 144px;
+  align-items: center;
+}
+.content .country .vertical-block .vertical {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  writing-mode: vertical-lr;
+}
+.content .navigation {
+  flex-shrink: 1;
+}
+.content .navigation .navigation__menu {
+  display: flex;
+  width: 495px;
+  justify-content: space-between;
+  flex-shrink: 1;
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.content .navigation .navigation__menu li {
+  flex-shrink: 1;
+  margin: 0 10px;
+  color: #000000;
+}
+.footer {
+  background-color: #202020;
+}
+.footer .footer__inf {
+  height: 87px;
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  align-items: center;
+  margin: auto;
+}
+.footer .footer__inf img {
+  height: 19px;
+  width: 49px;
+}
+.footer .footer__inf p {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 10px;
+}
+.main2 {
+  background: url(img/girl-mountain\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  min-height: 733px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main2 .main__p {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 96px;
+  font-weight: 700;
+  margin-left: 107px;
+  margin-bottom: 231px;
+  max-width: 244px;
+}
+.content2 {
+  margin: 100px 108px;
+}
+.content2 h1 {
+  color: #000000;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: end;
+  margin-bottom: 100px;
+}
+.content2 p {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  max-width: 829px;
+  margin-bottom: 115px;
+}
+.content2 .price {
+  display: flex;
+  height: 63px;
+  align-content: center;
+  margin-bottom: 132px;
+}
+.content2 .price .buy {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  transform: skew(-20deg);
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-right: 67px;
+  width: 136px;
+}
+.content2 .price p {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  font-size: 36px;
+  margin-left: 27px;
+}
+.content2 .container h2 {
+  color: #000000;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 125px;
+}
+.content2 .container .photo {
+  max-width: 937px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  row-gap: 200px;
+}
+.content2 .container .photo .text {
+  display: flex;
+  align-content: center;
+}
+.content2 .container .photo .text p {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 32px;
+  max-width: 287px;
+}
+.content2 .container .photo p {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 260px;
+  color: #000;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 187px;
+}
+.content2 .content2_p {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  max-width: 829px;
+  margin: auto;
+  margin-top: 200px;
+}
+.content2 .explore-world {
+  color: #000000;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-top: 64px;
+  margin-bottom: 180px;
+  text-align: center;
+}
+.header3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  width: 92%;
+  flex-shrink: 1;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+  align-items: center;
+}
+.header3 p {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 24px;
+  flex-shrink: 1;
+  color: #000;
+}
+.header3 .navigation {
+  flex-shrink: 1;
+  color: #000;
+}
+.header3 .navigation .navigation__menu {
+  display: flex;
+  width: 495px;
+  justify-content: space-between;
+  flex-shrink: 1;
+  color: #000;
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.header3 .navigation .navigation__menu li {
+  flex-shrink: 1;
+  margin: 0 10px;
+  color: #000;
+}
+.content3 h1 {
+  color: #000000;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 57px;
+}
+.content3 .content3__menu {
+  display: flex;
+  justify-content: center;
+}
+.content3 .content3__menu li {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 150px;
+}
+.content3 .cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 128px;
+  column-gap: 128px;
+  margin-left: 144px;
+  margin-right: 144px;
+  justify-content: center;
+  margin-bottom: 180px;
+}
+.content3 .cards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.content3 .cards .card p,
+.content3 .cards .card span {
+  color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+.content3 .cards .card h4 {
+  color: #000000;
+  font-family: 'Euclid Circular A', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
